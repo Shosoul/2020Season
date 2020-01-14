@@ -29,6 +29,7 @@ public class Drivetrain implements ISubsystem{
         }
         return instance;
     }
+//Would we be able to use arcadeDriveXboxController here instead?
     public void FunnyDrive(double throttle, double turn){
         _robotDrive.arcadeDrive(throttle, turn);
     }
